@@ -1,23 +1,22 @@
-# UNO Project (C++)
+# UNO Project
 
-This was a final academic project designed to simulate gameplay mechanics similar to the card game UNO. The application allows users to enter player names and conduct multiple rounds of play, with operator overloading used to present card and player status cleanly in output.
+This project was developed as part of academic coursework in C++. It simulates core elements of the card game UNO, including player setup, card representation, and basic game flow. The program utilizes object-oriented design principles and operator overloading to manage gameplay and display output.
 
-## Project Overview
+## Overview
 
-- The program initializes player data and executes the game loop through the `Game` class.
-- Operator overloads allow `Card` and `Player` objects to be displayed in a readable format.
-- Includes basic interaction prompts and replay capability.
-- Game logic is distributed across external header files (`main.h`, `game.h`), which structured the core functionality.
+- Initializes multiple players and prompts for user input
+- Implements a game loop through the `Game` class
+- Uses overloaded `<<` operators to display `Card` and `Player` objects
+- Modular structure with supporting header files (`main.h`, `game.h`, etc.)
 
 ## Technologies Used
 
 - C++  
-- Standard Template Library (STL): `vector`, `string`, `ostream`  
-- Object-Oriented Design and Encapsulation  
+- Standard Template Library (`vector`, `string`, `iostream`)  
+- Object-Oriented Programming  
 - Operator Overloading  
-- Header File Modularization
+- Header File Organization
 
 ## Status
 
-This project remains incomplete and was submitted as part of final coursework. Source files are preserved for archival and learning purposes. Future updates may include a complete rule set, full card deck logic, and win/loss conditions.
-
+This project remains incomplete and is preserved as a learning artifact and example of early design work. Future revisions may include expanded rule logic, card deck management, and win/loss conditions.
