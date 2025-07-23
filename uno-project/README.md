@@ -7,7 +7,7 @@ This project was developed as part of academic coursework in C++. It simulates c
 - Initializes multiple players and prompts for user input
 - Implements a game loop through the `Game` class
 - Uses overloaded `<<` operators to display `Card` and `Player` objects
-- Modular structure with supporting header files (`main.h`, `game.h`, etc.)
+- Modular structure with supporting header files (`main.h`, `game.h`, `card.h`, `deck.h`, etc.)
 
 ## Technologies Used
 
@@ -16,6 +16,10 @@ This project was developed as part of academic coursework in C++. It simulates c
 - Object-Oriented Programming  
 - Operator Overloading  
 - Header File Organization
+
+## Structure and Design
+
+The project is organized into modular components (`Card`, `Deck`, `Player`, `Game`) with encapsulated logic and operator overloading for clean output. Header files define the structure and relationships between game entities, supporting future expansion and rule implementation.
 
 ## Status
 
